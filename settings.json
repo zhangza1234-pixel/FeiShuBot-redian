@@ -1,0 +1,113 @@
+{
+  "model": "qwen-plus",
+  "region": "cn-beijing",
+  "workspace_id": "llm-q7m00dg3aq2zptiq",
+  "search_strategy": "max",
+  "max_tokens": 5000,
+  "timeout_seconds": 180,
+  "sections": [
+    {
+      "id": "ai_tech",
+      "title": "前沿 AI 与科技产品",
+      "month_query": "AI 大模型 智能体 开源模型 新科技产品 重要进展",
+      "queries": [
+        {
+          "text": "AI 大模型 智能体 模型发布 技术进展",
+          "sites": [
+            "openai.com",
+            "anthropic.com",
+            "deepmind.google",
+            "blog.google",
+            "qwen.ai",
+            "ithome.com",
+            "36kr.com",
+            "iimedia.cn",
+            "tech.sina.com.cn"
+          ]
+        },
+        {
+          "text": "科技新产品 智能硬件 软件工具 新品",
+          "sites": [
+            "ithome.com",
+            "36kr.com",
+            "theverge.com",
+            "techcrunch.com",
+            "iimedia.cn",
+            "tech.sina.com.cn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "business",
+      "title": "财商、商业与经济",
+      "month_query": "经济政策 利率 汇率 企业经营 现金流 成本 盈利 商业案例",
+      "queries": [
+        {
+          "text": "经济政策 产业政策 货币 汇率 企业成本",
+          "sites": [
+            "gov.cn",
+            "pbc.gov.cn",
+            "stats.gov.cn",
+            "safe.gov.cn",
+            "finance.sina.com.cn",
+            "yicai.com",
+            "cnstock.com",
+            "stcn.com"
+          ]
+        },
+        {
+          "text": "企业财报 现金流 盈利 经营 商业案例",
+          "sites": [
+            "epaper.zqrb.cn",
+            "cnstock.com",
+            "stcn.com",
+            "yicai.com",
+            "21jingji.com",
+            "finance.sina.com.cn"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "anping_wire",
+      "title": "安平丝网产业与需求",
+      "month_query": "安平 丝网产业新闻 金属丝网 护栏网 钢格板 招标采购 求购 外贸需求",
+      "queries": [
+        {
+          "text": "河北 安平 丝网产业 新闻 政策 展会 技术",
+          "sites": [
+            "xinhuanet.com",
+            "news.cn",
+            "hebnews.cn",
+            "hsrb.com.cn",
+            "hebccw.cn"
+          ]
+        },
+        {
+          "text": "丝网 护栏网 钢格板 不锈钢网 筛网 采购 招标 询价",
+          "sites": [
+            "ccgp.gov.cn",
+            "ccgp-hebei.gov.cn",
+            "zb.sggylpt.com",
+            "hgdzzb.nbport.com.cn"
+          ]
+        },
+        {
+          "text": "安平 丝网 求购 加工需求 设备采购",
+          "sites": [
+            "ap.cnboling.cn"
+          ]
+        },
+        {
+          "text": "wire mesh procurement tender RFQ buyer request notice"
+        }
+      ]
+    },
+    {
+      "id": "github_hot",
+      "title": "GitHub 热点",
+      "provider": "github"
+    }
+  ]
+}
